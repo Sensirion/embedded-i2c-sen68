@@ -14,7 +14,7 @@ The default I²C address of [SEN68](https://www.sensirion.com/products/catalog/S
 
 ## Setup Guide
 
-### Connecting the Sensor
+### Connect the Sensor
 
 Your sensor has 6 different signals that need to be connected to your board: VDD, GND, SDA, SCL, GND, VDD.
 Use the following pins to connect your SEN68:
@@ -27,8 +27,8 @@ Use the following pins to connect your SEN68:
 | 2 | black | GND | Ground |
 | 3 | green | SDA | I2C: Serial data input / output | TTL 5V compatible
 | 4 | yellow | SCL | I2C: Serial clock input | TTL 5V compatible
-| 5 |  | GND | Ground | Do not connect (Pins 2 and 5 are connected internally)
-| 6 |  | VDD | Supply Voltage | Do not connect (Pins 1 and 6 are connected internally)
+| 5 |  | NC | Do not connect | Ground (Pins 2 and 5 are connected internally)
+| 6 |  | NC | Do not connect | Supply Voltage (Pins 1 and 6 are connected internally)
 
 
 
