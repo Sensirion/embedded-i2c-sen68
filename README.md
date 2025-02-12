@@ -14,10 +14,10 @@ The default I²C address of [SEN68](https://www.sensirion.com/products/catalog/S
 
 ## Setup Guide
 
-### Connecting the Sensor
+### Connect the Sensor
 
-Your sensor has 4 different signals that need to be connected to your board: VDD, GND, SDA, SCL.
-Use the following pins to connect your SEN68:
+Your sensor has 4 pins that need to be connected to your board: VDD, GND, SDA, SCL.
+Use the following description to connect your SEN68:
 
 <img src="images/sen6x-pinout.png" width="300px">
 
